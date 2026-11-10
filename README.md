@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard that analyses sales and profitability across five business segments, from top-line gross sales down to segment- and product-level profit.
 
-<img width="482" height="274" alt="Screenshot 2026-11-10 180531" src="https://github.com/user-attachments/assets/6556a51f-1a6f-4e8b-b318-f00a1c40fa7a" />
+width="100%" alt="Financial Performance Analysis dashboard"
 
 
 ---
@@ -49,17 +49,18 @@ Which segments and products drive gross sales and profit, and which parts of the
 ```
 financial-performance-powerbi/
 ├── README.md
-└── dashboard/
-    ├── financial-performance-analysis.pbix   # Power BI file (data included)
-    └── financial-performance-analysis.pdf    # PDF export for quick viewing
+├── Financial Performance Analysis.pbix    # Power BI file
+├── Financial Performance Analysis.pdf     # PDF export for quick viewing
+└── Financial Performance Excel.xlsx       # source data (exported from the .pbix)
 ```
-
-
 
 ## How to view
 
-- **No Power BI?** Open the PDF in `dashboard/`.
-- **With Power BI Desktop** (free, Windows): download the `.pbix` file and open it — the data loads with it.
+- **No Power BI?** Open [Financial Performance Analysis.pdf](Financial%20Performance%20Analysis.pdf).
+- **Want the data?** Download [Financial Performance Excel.xlsx](Financial%20Performance%20Excel.xlsx).
+- **With Power BI Desktop** (free, Windows): download [Financial Performance Analysis.pbix](Financial%20Performance%20Analysis.pbix) and open it — the data loads with it.
+
+
 ## Tools
 
 Power BI Desktop · Power Query · Microsoft Excel
