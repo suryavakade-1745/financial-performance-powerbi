@@ -2,7 +2,8 @@
 
 An interactive Power BI dashboard that analyses sales and profitability across five business segments, from top-line gross sales down to segment- and product-level profit.
 
-<img width="100%" alt="Financial Performance Analysis dashboard" src="https://github.com/user-attachments/assets/6556a51f-1a6f-4e8b-b318-f00a1c40fa7a" />
+<img width="481" height="272" alt="Screenshot 2026-11-10 132223" src="https://github.com/user-attachments/assets/b7f459bc-0cbd-414a-b6b6-265d1e2e5023" />
+
 
 ---
 
