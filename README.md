@@ -54,7 +54,7 @@ financial-performance-powerbi/
     └── financial-performance-analysis.pdf    # PDF export for quick viewing
 ```
 
-> The dataset is stored inside the `.pbix` file, so no separate data file is needed.
+
 
 ## How to view
 
