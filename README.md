@@ -21,7 +21,7 @@ Which segments and products drive gross sales and profit, and which parts of the
 
 | Item | Detail |
 |---|---|
-| Source | <!-- TODO: e.g. "Microsoft Power BI Financial Sample workbook" --> |
+| Source | [Microsoft Power BI Financial Sample](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download) (public sample data) |
 | Period | 2013 – 2014 |
 | Grain | One row per sale (segment × product × date) |
 | Main fields | Segment, Product, Units Sold, Manufacturing Price, Sale Price, Gross Sales, Sales, Profit, Date |
@@ -49,20 +49,17 @@ Which segments and products drive gross sales and profit, and which parts of the
 ```
 financial-performance-powerbi/
 ├── README.md
-├── dashboard/
-│   ├── financial-performance-analysis.pbix   # Power BI file
-│   └── financial-performance-analysis.pdf    # PDF export for quick viewing
-├── data/
-│   └── financial-sample.xlsx                 # source data
-└── images/
-    └── dashboard.png                         # screenshot used above
+└── dashboard/
+    ├── financial-performance-analysis.pbix   # Power BI file (data included)
+    └── financial-performance-analysis.pdf    # PDF export for quick viewing
 ```
+
+> The dataset is stored inside the `.pbix` file, so no separate data file is needed.
 
 ## How to view
 
-- **No Power BI?** Open `dashboard/financial-performance-analysis.pdf`.
-- **With Power BI Desktop** (free, Windows): download the `.pbix` file and open it. If prompted, point the data source to `data/financial-sample.xlsx`.
-
+- **No Power BI?** Open the PDF in `dashboard/`.
+- **With Power BI Desktop** (free, Windows): download the `.pbix` file and open it — the data loads with it.
 ## Tools
 
 Power BI Desktop · Power Query · Microsoft Excel
